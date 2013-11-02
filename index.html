@@ -90,7 +90,7 @@
                             <option value="ad">Saw an advertisement</option>
                             <option value="web">Randomly found your web site</option>
                             <option value="tv">Saw you on "America's Worst Companies"</option>
-                            <option value="other">Other</option>
+                            <option value="other" selected disabled>Other</option>
                         </select>
                     </div>
                     <div class="col-lg-5">
@@ -115,6 +115,23 @@
                         <button type="submit" class="btn btn-primary">Sign Me Up!</button>
                     </div>
                 </div>
+				<div class="modal fade cancel-signup-modal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title">Abandon Signup?</h4>
+						</div>
+						<div class="modal-body">
+							<p>Are you sure you don't want to signup to receive useless marketing spam for the rest of your life? 
+							I mean, this is a rare opportunity here. You'd be a fool not to sign up!</p>
+						</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">No, Go Back to Signup Form</button>
+								<button type="button" class="btn btn-primary btn-abandon">Yes, Get Me Out of Here!</button>
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
 
             </form>
 
@@ -140,6 +157,7 @@
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
+		<a href="https://github.com/gnn2/lab6">Source Respository</a> 
 
         <!-- hot link to minified jQuery library, version 2.0.3 -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
